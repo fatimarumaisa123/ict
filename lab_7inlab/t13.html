@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salary Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+
+  <form>
+    <input type="text" id="empName" placeholder="name"><br><br>
+
+    <input type="number" id="basic" placeholder="basic salary"><br><br>
+
+    <input type="number" id="allowance" placeholder="allowance"><br><br>
+
+    <button type="button" onclick="calculate()">Calculate Salary</button>
+  </form>
+
+  <div id="output" style="display: none;">
+    <h2>Salary Details</h2>
+    <p id="n"></p>
+    <p id="b"></p>
+    <p id="a"></p>
+    <p id="g"></p>
+    <p id="c"></p>
+  </div>
+
+  <script src="t13.js"></script>
+</body>
+</html>

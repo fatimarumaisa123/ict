@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Order</title>
+</head>
+<body>
+  <h1>Food Order</h1>
+
+  <form>
+    <input type="text" id="cn" placeholder="Customer Name"><br><br>
+    <input type="text" id="fi" placeholder="Food Item"><br><br>
+    <input type="number" id="pr" placeholder="Price"><br><br>
+    <input type="number" id="qt" placeholder="Quantity"><br><br>
+    <button type="button" onclick="order()">Place Order</button>
+  </form>
+
+  <div id="out" style="display: none;">
+    <h2>Order Summary</h2>
+    <p id="d"></p>
+    <p id="n"></p>
+    <p id="f"></p>
+    <p id="p"></p>
+    <p id="q"></p>
+    <p id="t"></p>
+    
+  </div>
+
+  <script src="t10.js"></script>
+</body>
+</html>

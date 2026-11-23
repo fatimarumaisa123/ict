@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill Calculator</title>
+</head>
+<body>
+  <h1>Bill Calculator</h1>
+
+  <form>
+    <input type="text" id="productName" placeholder="product Name"><br><br>
+
+    <input type="number" id="productPrice" placeholder="price"><br><br>
+
+    <input type="number" id="quantity" placeholder="quantity"><br><br>
+
+    <button type="button" onclick="calculate()">Calculate Bill</button>
+  </form>
+
+  <div id="output" style="display: none;">
+    <h2>Bill Details</h2>
+    <p id="n"></p>
+    <p id="p"></p>
+    <p id="q"></p>
+    <p id="t"></p>
+  </div>
+
+  <script src="t8.js"></script>
+</body>
+</html>
